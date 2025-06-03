@@ -48,10 +48,15 @@ function showDemoPopup() {
   `;
 
   overlay.innerHTML = `
+    <button id="duped-close-btn" style="position:absolute; top:5px; right:5px;">&times;</button>
     <h2>Duped (Demo)</h2>
     <p>This is a public demo. The full version of this extension automatically detects fashion products, scrapes pricing and image data, and finds affordable dupes across stores.</p>
     <p>To see the full version or request access, contact <strong>anukamanghwani@gmail.com</strong>.</p>
   `;
+
+  overlay.querySelector('#duped-close-btn').addEventListener('click', () => {
+    overlay.remove();
+  });
 
   document.body.appendChild(overlay);
 }
