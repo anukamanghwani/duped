@@ -21,7 +21,6 @@ Users could shop smarter — without switching tabs.
 ---
 
 ## ⚙️ Features
-- Ran on 8+ popular fashion websites
 - Used custom logic for similarity matching (text-based, w/ visual matching in progress)
 - Achieved a 12.5%+ ad click-through rate in early user testing
 - Waitlist signups from real Gen Z shoppers
@@ -36,8 +35,6 @@ But it remains a complete, working proof of concept built solo — from code to 
 
 ## 🛠️ Tech Stack
 - HTML, CSS, JavaScript
-- Chrome Extension APIs
-- Early experimentation with ad integration and recommendation logic
 
 ---
 
